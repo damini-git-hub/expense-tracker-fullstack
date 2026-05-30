@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2563eb;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.expense-card {
+  background: #f9fafb;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.expense-card {
+  background: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.expense-card:hover {
+  transform: scale(1.02);
+}
+
+.expense-card h3 {
+  margin: 0;
+  color: #1e3a8a;
+}
+
+.expense-card p {
+  margin: 8px 0;
+  color: #374151;
+}
+
+button:first-of-type {
+  background-color: #dc2626;
+}
+
+button:first-of-type:hover {
+  background-color: #b91c1c;
+}
+
+button:last-of-type {
+  background-color: #16a34a;
+}
+
+button:last-of-type:hover {
+  background-color: #15803d;
+}
+.app {
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.dark {
+  background-color: #111827;
+  color: white;
+}
+
+.dark .container {
+  background-color: #1f2937;
+}
+
+.dark input {
+  background-color: #374151;
+  color: white;
+  border: none;
+}
+
+.dark .expense-card {
+  background-color: #374151;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
