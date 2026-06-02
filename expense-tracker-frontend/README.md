@@ -1,16 +1,112 @@
-# React + Vite
+# Expense Tracker Full Stack Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Expense Tracker is a full-stack web application that helps users manage and track their daily expenses. Users can add, view, delete, and categorize expenses while also visualizing spending patterns through an interactive pie chart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Add new expenses
+* View all expenses
+* Delete expenses
+* Filter expenses by category
+* Visualize expenses using a pie chart
+* Responsive and user-friendly interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* Axios
+* Recharts
+* CSS
+
+### Backend
+
+* Java
+* Spring Boot
+* Spring Data JPA
+
+### Database
+
+* MySQL
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* IntelliJ IDEA
+
+## Project Structure
+
+expense-tracker/
+
+├── src/ (Spring Boot Backend)
+
+├── expense-tracker-frontend/
+
+│ ├── src/
+
+│ ├── components/
+
+│ └── assets/
+
+├── pom.xml
+
+└── README.md
+
+## Installation
+
+### Clone Repository
+
+git clone <repository-url>
+
+### Backend Setup
+
+1. Open project in IntelliJ IDEA.
+2. Configure MySQL database in application.properties.
+3. Run the Spring Boot application.
+
+### Frontend Setup
+
+Navigate to frontend folder:
+
+cd expense-tracker-frontend
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm run dev
+
+Open:
+
+http://localhost:5173
+
+## Screenshots
+
+Add screenshots of:
+
+* Dashboard
+* Expense List
+* Category Filter
+* Pie Chart
+
+## Future Enhancements
+
+* Edit Expense Feature
+* Search Expenses
+* Date Range Filtering
+* User Authentication
+* Cloud Deployment
+
+## Author
+
+Damini Sinha
+
+GitHub: https://github.com/damini-git-hub
